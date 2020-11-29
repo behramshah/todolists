@@ -1,0 +1,88 @@
+body{background-color: lightcoral;
+     font-family: 'Dancing Script', cursive;
+    }
+h1{color: yellow;
+    text-align: center;
+    font-size: 10em;
+}
+#input{
+    outline-style: none;
+    border-style: unset;
+    width: 500px;
+    height: 40px;
+    font-size: 32px;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+    
+}
+#Add{
+    outline-style: none;
+    border-style: unset;
+    width: 100px;
+    height: 50px;
+    font-size: 32px;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+}
+
+#Add:hover{
+    color: green;
+    background-color: wheat;
+  
+}
+.section1{
+    text-align: center;
+}
+#Tasks {
+    margin:auto;
+    width: auto; 
+    height: 400px;
+    overflow-y: scroll;
+    overflow-x:hidden;
+           
+}
+ul{
+    text-align: center;
+    list-style-type:none ;
+    font-size: 32px;
+}
+#done,
+#delete{
+    outline-style: none;
+    border-style: unset;
+    width: 100px;
+    height: 50px;
+    font-size: 32px;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+    align-items: flex-end;
+}
+#done:hover{
+    color: green;
+    background-color: wheat;
+
+}
+#delete:hover{
+    color: green;
+    background-color: wheat;
+}
+#AC{
+    outline-style: none;
+    border-style: unset;
+    width: 150px;
+    height: 70px;
+    font-size: 32px;
+    margin: 5px;
+    padding: 5px;
+    font-family: 'Dancing Script', cursive;
+    text-align: center;
+    margin-left: 1000px;    
+}
+#AC:hover{
+        color: green;
+        background-color: wheat;
+}
+
