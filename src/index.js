@@ -2,7 +2,6 @@ const addButton = document.getElementById("Add");
 const deleteButton = document.getElementById("delete")
 const doneButton = document.getElementById("done")
 
-
 function createtask () {
     const inputValue = document.getElementById("input").value;
     if(inputValue == "")
